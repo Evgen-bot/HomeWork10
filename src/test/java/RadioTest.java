@@ -104,7 +104,6 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-
     @Test
     public void volume90() {
         Radio radio = new Radio();
@@ -137,7 +136,6 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
-
 
     @Test
     public void volume99() {
@@ -208,8 +206,6 @@ public class RadioTest {
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
-
-
 
     @Test
     public void testVolumeUp() {
